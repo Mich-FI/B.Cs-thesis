@@ -1,2 +1,4 @@
 # B.Cs-thesis
-My University of Jyväskylä Bachelor of Computer Science Thesis
+My Bachelor of Computer Science Thesis
+
+University of Jyväskylä
