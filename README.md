@@ -2,3 +2,5 @@
 My Bachelor of Computer Science Thesis
 
 University of Jyväskylä
+
+Chosen topic: 
