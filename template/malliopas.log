@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.13)  13 JAN 2026 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.26)  26 JAN 2026 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -65,30 +65,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count274
 \U@D=\dimen150
-\l@unhyphenated=\language6
+\l@unhyphenated=\language35
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count275
- (/usr/share/texmf-dist/tex/generic/babel/errbabel.def)
-
-/usr/share/texmf-dist/tex/generic/babel/babel.sty:4138: Package babel Error: Unknown option 'finnish'. Either you misspelled it
-(babel)                or the language definition file finnish.ldf
-(babel)                was not found.
-(babel)                There is a locale ini file for this language.
-(babel)                If itâ€™s the main language, try adding `provide=*'
-(babel)                to the babel package options.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4138 \ProcessOptions*
-                       
-Valid options are, among others: shorthands=, KeepShorthandsActive,
-activeacute, activegrave, noconfigs, safe=, main=, math=
-headfoot=, strings=, config=, hyphenmap=, or a language name.
-
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+ (/usr/share/texmf-dist/tex/generic/babel-finnish/finnish.ldf
+Language: finnish 2021/02/06 v1.3s Finnish support from the babel system
+Package babel Info: Making " an active character on input line 85.
+) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'british' set to \l@english
 (babel)             (\language0). Reported on input line 82.
@@ -103,6 +87,9 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@english
 )) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/share/texmf-dist/tex/generic/babel/locale/fi/babel-finnish.tex
+Package babel Info: Importing font and identification data for finnish
+(babel)             from babel-fi.ini. Reported on input line 11.
 ) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks19
@@ -260,7 +247,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip58
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language7
+\blx@langwohyphens=\language36
 \c@mincomprange=\count330
 \c@maxcomprange=\count331
 \c@mincompwidth=\count332
@@ -702,29 +689,31 @@ Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 ))
+Package biblatex Info: Trying to load language 'finnish' -> 'cms-finnish'...
+Package biblatex Info: ... file 'cms-finnish.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-chicago/cms-finnish.lbx
+File: cms-finnish.lbx 2022/07/02 v 3.18 biblatex localization
+Package biblatex Info: Trying to load language 'finnish'...
+Package biblatex Info: ... file 'finnish.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/finnish.lbx
+File: finnish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'finnish'...
+Package biblatex Info: ... file 'finnish.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/finnish.lbx
+File: finnish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout3 = `malliopas.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'malliopas.bbl' not found.
-
-No file malliopas.bbl.
+Package biblatex Info: ... file 'malliopas.bbl' found.
+ (./malliopas.bbl)
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
-(/usr/share/texmf-dist/tex/generic/babel/locale/fi/babel-finnish.tex)
-Package babel Info: Importing data for finnish
-(babel)             from babel-fi.ini. Reported on input line 21.
-Package babel Info: Hyphen rules for 'finnish' set to \l@english
-(babel)             (\language0). Reported on input line 21.
-
-
-Package biblatex Warning: No localisation for language 'finnish' loaded.
-(biblatex)                Please rerun LaTeX to ensure languages can
-(biblatex)                be requested properly.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count448
 \scratchdimen=\dimen179
@@ -744,6 +733,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 21.
+ (./malliopas.out) (./malliopas.out)
 \@outlinefile=\write4
 \openout4 = `malliopas.out'.
 
@@ -786,11 +776,6 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 68.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (11.8799pt too wide) in paragraph at lines 68--68
-\T1/ptm/m/n/12 tavoit-teesta, tutkimus-menetelmistä, saavute-tu-ista tu-lok-sista, tu-losten tulkin-nas-ta ja jo-htopäätök-
- []
-
-
 
 [1]
 
@@ -798,92 +783,89 @@ Overfull \hbox (11.8799pt too wide) in paragraph at lines 68--68
 
 ]
 
-LaTeX Warning: Citation 'knuth86:_texbook' on page 3 undefined on input line 93.
+[3
 
-
-LaTeX Warning: Citation 'knuth86:_texbook' on page 3 undefined on input line 94.
-
-
-LaTeX Warning: Citation 'lamport94:_latex' on page 3 undefined on input line 96.
-
-
-Overfull \hbox (6.53421pt too wide) in paragraph at lines 94--98
-\T1/ptm/m/n/12 joitelmien ladon-taan tarkoitet-tu jär-jestelmä ([]).
- []
-
+] (./malliopas.lof)
 \tf@lof=\write5
 \openout5 = `malliopas.lof'.
 
+ (./malliopas.lot
+Overfull \hbox (1.20001pt too wide) detected at line 7
+ []\T1/ptm/m/n/12 13[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 9
+ []\T1/ptm/m/n/12 17[]
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `malliopas.lot'.
 
 
 
-[3
+[4
 
-]
-No file malliopas.toc.
+] (./malliopas.toc
+Overfull \hbox (1.20001pt too wide) detected at line 11
+ []\T1/ptm/m/n/12 10[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 12
+ []\T1/ptm/m/n/12 11[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 13
+ []\T1/ptm/m/n/12 12[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 14
+ []\T1/ptm/m/n/12 14[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 15
+ []\T1/ptm/m/n/12 15[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 16
+ []\T1/ptm/m/n/12 17[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 17
+ []\T1/ptm/m/n/12 17[]
+ []
+
+
+Overfull \hbox (1.20001pt too wide) detected at line 18
+ []\T1/ptm/m/n/12 18[]
+ []
+
+)
 \tf@toc=\write7
 \openout7 = `malliopas.toc'.
 
 
 
-[4
+[5
 
 ]
-\bbl@ensure@finnish {Luku} 1.
-
-Overfull \hbox (41.8919pt too wide) in paragraph at lines 108--121
-[]\T1/ptm/m/n/12 Johdanto kan-nat-taa aloit-taa na-pakasti esit-tämäl-lä heti alus-sa tutkiel-man pääväite tai tutkimuskysymys.
- []
-
-
-Overfull \hbox (25.06949pt too wide) in paragraph at lines 122--128
-\T1/ptm/m/n/12 (ver-sio 3.9). Kom-ment-te-ja, paran-nuse-hdo-tuk-sia ja bu-gi-ra-port-te-ja voit lähet-tää Gitlab-repositorioon
- []
-
-<opus-kissa.pdf, id=33, 483.8075pt x 361.35pt>
+Luku 1.
+<opus-kissa.pdf, id=130, 483.8075pt x 361.35pt>
 File: opus-kissa.pdf Graphic file (type pdf)
 <use opus-kissa.pdf>
-Package pdftex.def Info: opus-kissa.pdf  used on input line 130.
+Package pdftex.def Info: opus-kissa.pdf  used on input line 128.
 (pdftex.def)             Requested size: 190.47806pt x 142.26378pt.
-
-LaTeX Warning: Citation 'kaijanaho03:_latex_ams_latex' on page 1 undefined on input line 134.
-
-
-LaTeX Warning: Citation 'kaijanaho03:_latex_ams_latex' on page 1 undefined on input line 134.
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 134--134
-[]\T1/ptm/m/n/12 Kuva 1. []L[]T[]X-oppaani ([]) kan-siku-va on tässä vain es-
- []
-
-
-LaTeX Warning: Citation 'lamport94:_latex' on page 1 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'kaijanaho03:_latex_ams_latex' on page 1 undefined on input line 141.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
-
-LaTeX Warning: Reference `fig:opus-kissa' on page 1 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'oetiker:_pitka_latex' on page 1 undefined on input line 146.
-
-
-Overfull \hbox (12.32664pt too wide) in paragraph at lines 138--148
-\T1/ptm/m/n/12 ai-heesta opaskir-jan ([]).[][][] Hyvä suomenkieli-nen, va-paasti verkos-
- []
-
-
-Overfull \hbox (17.93263pt too wide) in paragraph at lines 138--148
-\T1/ptm/m/n/12 ta saatavil-la ol-e-va opas on \T1/ptm/m/it/12 Pitkän-puoleinen jo-hdan-to []:n käyt-töön \T1/ptm/m/n/12 ([]).
- []
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 
 
 [1
@@ -892,202 +874,75 @@ Overfull \hbox (17.93263pt too wide) in paragraph at lines 138--148
  <./opus-kissa.pdf>]
 
 [2]
-\bbl@ensure@finnish {Luku} 2.
-
-Overfull \hbox (7.23839pt too wide) in paragraph at lines 155--158
-\T1/ptm/m/n/12 Yhteensä tutkiel-mas-sa on hyvä ol-la 5--9 nu-meroitua lukua, si-is Jo-hdan-to ja Yh-teen-ve-to mukaan
- []
-
-
-LaTeX Warning: Citation 'amsmath-manual' on page 3 undefined on input line 190.
-
-
-LaTeX Warning: Citation 'lamport94:_latex' on page 3 undefined on input line 191.
-
-
-LaTeX Warning: Citation 'knuth86:_texbook' on page 3 undefined on input line 192.
-
-
-LaTeX Warning: Citation 'kaijanaho03:_latex_ams_latex' on page 3 undefined on input line 193.
-
+Luku 2.
 
 
 [3
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 209.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 207.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 [4]
-\bbl@ensure@finnish {Luku} 3.
+Luku 3.
 
-LaTeX Warning: Citation 'biblatex-manual' on page 5 undefined on input line 238.
-
-
-LaTeX Warning: Citation 'biblatex-chicago-manual' on page 5 undefined on input line 239.
-
-
-Overfull \hbox (37.7081pt too wide) in paragraph at lines 237--245
-[]\T1/ptm/m/n/12 Lähdeluettelon laad-in-taan gradu3 käyt-tää au-tomaat-tis-es-ti \T1/ptm/m/sc/12 BibL[]T[]X\T1/ptm/m/n/12 -järjestelmää ([])
+Overfull \hbox (8.01169pt too wide) in paragraph at lines 235--243
+\T1/ptm/m/n/12 ym. []2012[]) ja sen Chicago-tyyliä ([]Fuss-ner []2012[]). Tä-män au-to-ma-tii-kan saa pois \documentclass-
  []
-
-
-Overfull \hbox (20.17747pt too wide) in paragraph at lines 237--245
-\T1/ptm/m/n/12 ja sen Chicago-tyyliä ([]). Tämän au-tomati-ikan saa pois \documentclass-
- []
-
-
-LaTeX Warning: Citation 'aho-compilers' on page 5 undefined on input line 249.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 249.
-
-
-LaTeX Warning: Citation 'aho-compilers' on page 5 undefined on input line 255.
-
-
-LaTeX Warning: Citation 'biblatex-manual' on page 5 undefined on input line 262.
-
-
-Overfull \hbox (11.53362pt too wide) in paragraph at lines 258--264
-\T1/ptm/m/n/12 jälk-i-huo-mau-tus ja kol-mas (pakolli-nen) parametri on lähde-vi-it-tauk-sen koo-di ([]).
- []
-
-
-LaTeX Warning: Citation 'biblatex-manual' on page 5 undefined on input line 275.
 
 
 
 [5
 
 ]
-
-LaTeX Warning: Citation 'biblatex-manual' on page 6 undefined on input line 289.
-
-
-LaTeX Warning: Citation 'biblatex-chicago-manual' on page 6 undefined on input line 289.
-
-
-Overfull \hbox (129.51535pt too wide) in paragraph at lines 283--295
-[]\T1/ptm/m/n/12 On myös mah-dol-lista vi-ita-ta use-am-paan läh-teeseen samas-sa vi-it-tauk-ses-sa ([][]).
- []
-
-
-LaTeX Warning: Citation 'aho-compilers' on page 6 undefined on input line 322.
-
-
-Overfull \hbox (40.6917pt too wide) in paragraph at lines 318--324
-\T1/ptm/m/n/12 etueesta kir-joite-taan aal-to-sulkei-den sisään. Es-imerkik-si edel-lä mainit-tu kään-täjäkir-ja ([])
+Overfull \hbox (17.00803pt too wide) in paragraph at lines 281--293
+[]\T1/ptm/m/n/12 On myös mah-dol-lis-ta vii-ta-ta useam-paan läh-tee-seen sa-mas-sa viit-tauk-ses-sa (ks.[] Leh-man ym. []2012[],
  []
 
 
 
 [6]
-Overfull \hbox (20.52107pt too wide) in paragraph at lines 340--348
-\T1/ptm/m/n/12 lä ol-e-va en-sim-mäi-nen sana on ti-etueen koo-di, jo-ta käytetään \textcite- ja \parencite"-komennoissa.
- []
-
-
-LaTeX Warning: Citation 'unicode620' on page 7 undefined on input line 360.
-
-
-LaTeX Warning: Citation 'presidential-novel' on page 7 undefined on input line 376.
-
-
 
 [7]
 
-LaTeX Warning: Citation 'strachey-fundamentals' on page 8 undefined on input line 389.
-
-
-Overfull \hbox (3.22826pt too wide) in paragraph at lines 389--391
-[]\T1/ptm/m/n/12 Tieteellinen lehtiar-tikke-li ([]) kir-joite-taan es-imerkik-si seu-raa-van-laisek-
- []
-
-
-LaTeX Warning: Citation 'debian-social-contract' on page 8 undefined on input line 423.
-
-
-LaTeX Warning: Citation 'prechelt-credibility' on page 8 undefined on input line 438.
-
-
-Overfull \hbox (6.63747pt too wide) in paragraph at lines 436--447
-\T1/ptm/m/n/12 Yleen-sä täl-löin vi-itataan jo-honkin sen osa"-artikkeliin ([]) eikä koko kokoo-
- []
-
-
-
 [8]
 
-LaTeX Warning: Citation 'bibtexing' on page 9 undefined on input line 471.
-
-
-LaTeX Warning: Citation 'biblatex-manual' on page 9 undefined on input line 472.
-
-
-LaTeX Warning: Citation 'biblatex-chicago-manual' on page 9 undefined on input line 474.
-
-
-Overfull \hbox (97.18404pt too wide) in paragraph at lines 470--476
-\T1/ptm/m/sc/12 BibL[]T[]X\T1/ptm/m/n/12 in man-u-aal-ista ([]) sekä \T1/ptm/m/sc/12 BibL[]T[]X\T1/ptm/m/n/12 -Chicagon man-u-aal-ista ([]).
- []
-
-
-
 [9]
-Overfull \hbox (26.98227pt too wide) in paragraph at lines 517--517
+Overfull \hbox (26.98227pt too wide) in paragraph at lines 515--515
 []\T1/pcr/m/n/10 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.[] 
- []
-
-
-Overfull \hbox (2.98227pt too wide) in paragraph at lines 532--532
-[]\T1/pcr/m/n/10 {bibliography = {{Kirjallisuusluettelo}{Kirjallisuus}}, references = \ETC.[] 
  []
 
 
 
 [10]
-Overfull \hbox (8.98227pt too wide) in paragraph at lines 540--540
+Overfull \hbox (2.98227pt too wide) in paragraph at lines 530--530
+[]\T1/pcr/m/n/10 {bibliography = {{Kirjallisuusluettelo}{Kirjallisuus}}, references = \ETC.[] 
+ []
+
+
+Overfull \hbox (8.98227pt too wide) in paragraph at lines 538--538
 []\T1/pcr/m/n/10 editorsan        = {{toimittaneet ja selityksin varustaneet,% FIXME: unsure[] 
  []
 
 
-Overfull \hbox (8.98227pt too wide) in paragraph at lines 546--546
+Overfull \hbox (8.98227pt too wide) in paragraph at lines 544--544
 []\T1/pcr/m/n/10 editorsan        = {{toimittaneet ja selityksin varustaneet}% FIXME: unsure[] 
  []
 
 
-Overfull \hbox (1.61467pt too wide) in paragraph at lines 554--557
-\T1/ptm/m/n/12 muo-dos-sa. Tämä vi-ka on ko-r-jat-tu \T1/ptm/m/sc/12 BibL[]T[]X\T1/ptm/m/n/12 -Chicagon ver-sios-sa 0.9.9b (julka-istu 6.12.2012). 
+Overfull \hbox (1.61897pt too wide) in paragraph at lines 552--555
+\T1/ptm/m/n/12 muo-dos-sa. Tä-mä vi-ka on kor-jat-tu \T1/ptm/m/sc/12 BibL[]T[]X\T1/ptm/m/n/12 -Chicagon ver-sios-sa 0.9.9b (jul-kais-tu 6.12.2012). 
  []
 
 
 
 [11]
-\bbl@ensure@finnish {Luku} 4.
+Luku 4.
 
-Overfull \hbox (3.8284pt too wide) in paragraph at lines 579--581
-[]\T1/ptm/m/n/12 Jos tutkiel-masi on kan-di-daat-in-tutkiel-ma, käytä \documentclass-komennon op-tio-ta bach-
- []
-
-
-LaTeX Warning: Reference `tbl:metatiedot' on page 12 undefined on input line 581.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--594
-[]\T1/ptm/m/n/12 Suomenkielisen työn englan-ninkieli-nen ot-sikko,
- []
-
-
-Overfull \hbox (8.45932pt too wide) in paragraph at lines 616--620
-\T1/ptm/m/n/12 ympäristöä. Sen sisäl-lä voit käyt-tää \item[\T1/ptm/m/it/12 termi\T1/ptm/m/n/12 ]"-komentoa merk-it-semään määriteltävän
- []
-
-
-Overfull \hbox (33.7433pt too wide) in paragraph at lines 620--623
-[]\T1/ptm/m/n/12 Käytä \maketitle-komennon ja mah-dol-lis-ten es-ipuheen ja ter-miluet-telon jäl-keen \mainmatter"-
+Underfull \hbox (badness 10000) in paragraph at lines 590--592
+[]\T1/ptm/m/n/12 Suomenkielisen työn englan-nin-kie-li-nen ot-sik-ko,
  []
 
 
@@ -1096,93 +951,60 @@ Overfull \hbox (33.7433pt too wide) in paragraph at lines 620--623
 
 ]
 
-[13
-
-]
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
-
-\bbl@ensure@finnish {Luku} 5.
-
-Overfull \hbox (14.38927pt too wide) in paragraph at lines 633--641
-\T1/ptm/m/n/12 tutkiel-mas-sa es-ite-tyn no-jal-la voidaan sanoa jo-hdan-non väit-teen to-tu-ud-es-ta tai tutkimuskysymyk-
- []
-
-
-LaTeX Warning: Empty bibliography on input line 649.
-
+[13]
+Luku 5.
 
 
 [14
 
 ]
+Overfull \hbox (2.82008pt too wide) in paragraph at lines 648--648
+[][]\T1/ptm/m/n/12 Aho, Al-fred V., Mo-nica S. Lam, Ra-vi Set-hi ja Jef-frey D. Ull-man. 2007. \T1/ptm/m/it/12 Com-pi-lers: Principles,
+ []
 
-LaTeX Warning: Reference `tbl:cmdchange' on page 15 undefined on input line 661.
 
+LaTeX Font Warning: Font shape `T1/ptm/m/scit' undefined
+(Font)              using `T1/ptm/m/sc' instead on input line 647.
+
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <12> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 647.
 
 
 [15
 
+]
+
+[16]
+
+[17
+
 
 ]
-Overfull \hbox (6.24016pt too wide) in paragraph at lines 709--714
-[]\T1/ptm/m/n/12 \subject-komennolla voit il-moit-taa tutkiel-man op-pi-aineek-si jonkin muun kuin ti-etotekni-
- []
 
-
-Overfull \hbox (6.2872pt too wide) in paragraph at lines 709--714
-\T1/ptm/m/n/12 ikan. Huo-maa, et-tä op-pi-aine tulisi suomenkieli-sis-sä tutkielmis-sa kir-joit-taa geneti-ivimuo-
- []
-
-
-Overfull \hbox (0.43225pt too wide) in paragraph at lines 720--723
-[]\T1/ptm/m/n/12 Ympäristöllä chap-terquote voit lait-taa lu-vun alku-un mi-ete-lauseen. Sil-lä on yk-si pakolli-
- []
-
-
-
-[16] (./malliopas.aux)
+[18] (./malliopas.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `malliopas.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `malliopas.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  ED042906AD12D9D28B56E2CACEC5D2C6;2368.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                malliopas
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `malliopas.out' has not changed.
+(rerunfilecheck)             Checksum: 2E7755D0D40B3F88078AFF8EBE52AF5B;2450.
 Package logreq Info: Writing requests to 'malliopas.run.xml'.
 \openout1 = `malliopas.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21936 strings out of 475109
- 391357 string characters out of 5765325
- 1618507 words of memory out of 5000000
- 44620 multiletter control sequences out of 15000+600000
- 625129 words of font info for 122 fonts, out of 8000000 for 9000
- 40 hyphenation exceptions out of 8191
- 99i,11n,109p,742b,3949s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on malliopas.pdf (21 pages, 127171 bytes).
+ 22063 strings out of 474504
+ 394585 string characters out of 5748921
+ 1649925 words of memory out of 5000000
+ 44743 multiletter control sequences out of 15000+600000
+ 623063 words of font info for 122 fonts, out of 8000000 for 9000
+ 376 hyphenation exceptions out of 8191
+ 99i,11n,109p,742b,4709s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on malliopas.pdf (24 pages, 147023 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

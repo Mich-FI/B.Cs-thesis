@@ -8,10 +8,11 @@
 \contentsline {chapter}{\numberline {3}Lähteiden käyttö}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Lähdeviittaukset}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Lähdetietokanta}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Lähdeluettelo}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tiedossa olevat ongelmat}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.3}Lähdeluettelo}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tiedossa olevat ongelmat}{11}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Tutkielmapohjan erityispiirteet}{12}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Yhteenveto}{14}{chapter.5}%
-\contentsline {chapter}{Liitteet}{15}{section*.4}%
-\contentsline {section}{\numberline {A}Siirtyminen gradu2:sta gradu3:een}{15}{section.E.1}%
-\contentsline {section}{\numberline {B}Harvemmin tarvittavat ominaisuudet}{16}{section.E.2}%
+\contentsline {chapter}{L\"ahteet}{15}{section*.4}%
+\contentsline {chapter}{Liitteet}{17}{section*.6}%
+\contentsline {section}{\numberline {A}Siirtyminen gradu2:sta gradu3:een}{17}{section.E.1}%
+\contentsline {section}{\numberline {B}Harvemmin tarvittavat ominaisuudet}{18}{section.E.2}%
